@@ -1,0 +1,80 @@
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {
+      screens:{
+        "3xl": "1680px"
+      }
+    },
+  },
+  plugins: [],
+}
+
+
+
+
+
+{/* <div className='bg-white  md:grid-cols-2 md:items-center md:text-left sm:max-xl-p-9 m-12'>
+          <h4 className='text-5xl font-semibold text-center tracking-light px-12 underline underline-offset-8 decoration-2 decoration-solid decoration-green-800'>
+            Latest News
+          </h4>
+          <br />
+          <br />
+          <br />
+          <div className='flex flex-wrap gap-12 md:items-center md:justify-center'>
+
+            <Link to='https://www.sportsmax.tv/other-sports/column3/cycling/item/152355-jamaica-olympic-association-joa-donates-jmd-1-million-to-jamaica-cycling-federation-for-equipment-upgrade'className='hover:translate-y-3 duration-300' >
+            <div className=' border border-white p- w-96 bg-white rounded'>
+              <center>
+              <img src="cycle2.png" alt="" className='w-full rounded'/>
+              </center>
+              <br />
+              <h3 className='text-center text-2xl font-semibold text-black'>
+              JOA donates $1 million to JCF for equipment upgrade
+              </h3>
+              <br />
+            </div>
+            </Link>
+
+            <Link to='https://jamaica-gleaner.com/article/sports/20240819/jcf-president-slams-poor-state-velodrome' className='hover:translate-y-3 duration-300'>
+            <div className=' border border-white p- w-96 bg-white rounded'>
+              <center>
+              <img src="velodrome2A.jpg" alt="" className='w-full rounded border border-black'/>
+              </center>
+              <br />
+              <h3 className='text-center text-2xl font-semibold text-black'>
+                JCF president slams poor state of velodrome.
+              </h3>
+              <br />
+            </div>
+            </Link>
+
+            <Link to='https://jamaica-gleaner.com/article/sports/20240813/russell-wins-bronze-regional-cycling-champs'className='hover:translate-y-3 duration-300' >
+            <div className=' border border-white p- w-96 bg-white rounded'>
+              <center>
+              <img src="russell2.jpg" alt="" className='w-full rounded'/>
+              </center>
+              <br />
+              <h3 className='text-center text-2xl font-semibold text-black'>
+                Russell wins bronze in regional cycling champs.
+              </h3>
+              <br />
+            </div>
+            </Link>
+          </div>
+
+          <br />
+          
+          <center>
+            <button className='border border-green-900 px-4 py-2 text-white font-semibold bg-green-900 w-28 rounded hover:bg-green-700'>
+              <Link to='/news'>
+                 More
+              </Link>
+            </button>
+          </center>
+       </div>
+       <br /> */}
