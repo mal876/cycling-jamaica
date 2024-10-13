@@ -10,7 +10,9 @@ function Track() {
           Track
         </h4>
         <br /><br />
-        <div className='border border-black w-3/4 shadow-lg'>
+        <center>
+          <div>
+          <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300 '>
               <img src="panam.jpg" alt="" srcset="" className='w-48 float-left p-5'/>
               <p className='text-lg tracking-light px-12 p-5 font-semibold'>
                 2023 Pan American Games <br />
@@ -21,7 +23,7 @@ function Track() {
               </p>
         </div>
         <br /><br />
-        <div className='border border-black w-3/4 shadow-lg'>
+        <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
               <img src="ctc2.jpg" alt="" srcset="" className='w-48 float-left p-5'/>
               <p className='text-lg tracking-light px-12 p-5 font-semibold'>
                 2022 Caribbean Track Championships <br />
@@ -32,7 +34,7 @@ function Track() {
               </p>
         </div>
         <br /><br />
-        <div className='border border-black w-3/4 shadow-lg'>
+        <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
               <img src="uci.png" alt="" srcset="" className='w-56 float-left p-5'/>
               <p className='text-lg tracking-light px-12 p-5 font-semibold'>
                 2022 Caribbean Track Championships <br />
@@ -43,7 +45,7 @@ function Track() {
               </p>
         </div>
         <br /><br />
-        <div className='border border-black w-3/4 shadow-lg'>
+        <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
               <img src="uci.png" alt="" srcset="" className='w-56 float-left p-5'/>
               <p className='text-lg tracking-light px-12 p-5 font-semibold'>
                 2022 Caribbean Track Championships <br />
@@ -54,7 +56,7 @@ function Track() {
               </p>
         </div>
         <br /><br />
-        <div className='border border-black w-3/4 shadow-lg'>
+        <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
               <img src="uci.png" alt="" srcset="" className='w-56 float-left p-5'/>
               <p className='text-lg tracking-light px-12 p-5 font-semibold'>
                 2022 Caribbean Track Championships <br />
@@ -65,7 +67,7 @@ function Track() {
               </p>
         </div>
         <br /><br />
-        <div className='border border-black w-3/4 shadow-lg'>
+        <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
               <img src="ctc1.jpg" alt="" srcset="" className='w-48 float-left p-5'/>
               <p className='text-lg tracking-light px-12 p-5 font-semibold'>
                 2022 Caribbean Track Championships <br />
@@ -76,7 +78,7 @@ function Track() {
               </p>
         </div>
         <br /><br />
-        <div className='border border-black w-3/4 shadow-lg'>
+        <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
               <img src="ctc1.jpg" alt="" srcset="" className='w-48 float-left p-5'/>
               <p className='text-lg tracking-light px-12 p-5 font-semibold'>
                 2022 Caribbean Track Championships <br />
@@ -87,7 +89,7 @@ function Track() {
               </p>
         </div>
         <br /><br />
-        <div className='border border-black w-3/4 shadow-lg'>
+        <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
               <img src="uci.png" alt="" srcset="" className='w-56 float-left p-5'/>
               <p className='text-lg tracking-light px-12 p-5 font-semibold'>
                 2022 Caribbean Track Championships <br />
@@ -97,6 +99,8 @@ function Track() {
                 Silver
               </p>
         </div>
+          </div>
+        </center>
      </div>
      <Footer />
 

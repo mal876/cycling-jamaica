@@ -107,32 +107,35 @@ function Home() {
               Upcoming Events
           </h4>
           <br /><br />
-          <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
-            <img src="UCI_TRACK.png" alt="" srcset="" className='w-48 float-left p-5'/>
-            <p className='text-lg tracking-light px-12 p-5 font-semibold'>
-              2024 UCI World Track Cycling Championships <br />
-              October 16 to 20 <br />
-              Ballerup, Denmark
-            </p>
-          </div>
-          <br /><br />
-          <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
-            <img src="uci.png" alt="" srcset="" className='w-48 float-left p-5'/>
-            <p className='text-lg tracking-light px-12 p-5 font-semibold'>
-              2024 Elite Caribbean Road Cycling Championships <br />
-              October 17, 2024 <br />
-              TBA
-            </p>
-          </div>
-          <br /><br />
-          <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
-            <img src="UCI_TRACK.png" alt="" srcset="" className='w-48 float-left p-5'/>
-            <p className='text-lg tracking-light px-12 p-5 font-semibold'>
-              Elevation Cycling Club Road Race <br />
-              December 15, 2024 <br />
-              Clarendon, Jamaica
-            </p>
-          </div>
+          <center> <div className='md:items-center md:justify-center'>
+            <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
+              <img src="UCI_TRACK.png" alt="" srcset="" className='w-48 float-left p-5'/>
+              <p className='text-lg tracking-light px-12 p-5 font-semibold'>
+                2024 UCI World Track Cycling Championships <br />
+                October 16 to 20 <br />
+                Ballerup, Denmark
+              </p>
+            </div>
+            <br /><br />
+            <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
+              <img src="uci.png" alt="" srcset="" className='w-48 float-left p-5'/>
+              <p className='text-lg tracking-light px-12 p-5 font-semibold'>
+                2024 Elite Caribbean Road Cycling Championships <br />
+                October 17, 2024 <br />
+                TBA
+              </p>
+            </div>
+            <br /><br />
+            <div className='border border-black w-3/4 shadow-lg hover:translate-x-4 duration-300'>
+              <img src="elevation.jpg" alt="" srcset="" className='w-40 float-left p-5'/>
+              <p className='text-lg tracking-light px-12 p-5 font-semibold'>
+                Elevation Cycling Club Road Race <br />
+                December 15, 2024 <br />
+                Clarendon, Jamaica
+              </p>
+            </div>
+          </div> </center>
+          
 
           
        </div>

@@ -6,9 +6,14 @@ import { Link } from 'react-router-dom'
 function Join() {
   return (
     <div>
-      <br /><br /><br />
+      <br /><br />
+      <div className='md:items-center  md:text-left sm:max-xl-p-9 m-12'>
+       <h4 className='text-5xl font-semibold text-center tracking-light px-12 underline underline-offset-8 decoration-2 decoration-solid decoration-green-800'>
+          How To Join
+        </h4>
+      </div>
       <center>
-         <div className='w-96  border border-black rounded shadow-xl m-auto  md:items-center md:text-left sm:max-xl-p-9 p-5'>
+         <div className=' m-auto  md:items-center md:text-left sm:max-xl-p-9 p-5'>
           <h3 className='text-center text-lg font-semibold'>
             Register 
           </h3>
