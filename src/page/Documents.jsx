@@ -14,9 +14,9 @@ function Documents() {
       <div>
         <div className='flex flex-wrap gap-12 md:items-center md:justify-center'>
           <Link to='https://jamaicacycling.com/wp-content/uploads/2024/02/JCF-Selection-policy-final.pdf' className='hover:-translate-y-4 duration-300'>
-            <div className='border border-black shadow-lg'>
+            <div className='p-12 border border-black shadow-lg'>
                 <center>
-                <img src="jcf-selection.PNG" alt="" srcset="" className='w-  p-5'/>
+                <img src="jcf-selection.PNG" alt="" srcset="" className=' p-1'/>
                 </center>
                 <p className='text-lg tracking-light px-12 p-5 font-semibold text-center  underline underline-offset-8 decoration-2 decoration-solid decoration-green-800'>
                   J.C.F. Selection Policy
@@ -24,9 +24,9 @@ function Documents() {
             </div>
           </Link>
           <Link to='https://jamaicacycling.com/wp-content/uploads/2024/02/JCF-Standard-Times-for-Team-Selection-2024.pdf'className='hover:-translate-y-4 duration-300'  >
-          <div className='border border-black shadow-lg'>
+          <div className='p-12 border border-black shadow-lg'>
               <center>
-              <img src="jcf-standards.PNG" alt="" srcset="" className='w-  p-5'/>
+              <img src="jcf-standards.PNG" alt="" srcset="" className=' p-1'/>
               </center>
               <p className='text-lg tracking-light px-12 p-5 font-semibold text-center  underline underline-offset-8 decoration-2 decoration-solid decoration-green-800'>
                 J.C.F. 2024 Standards
@@ -34,9 +34,9 @@ function Documents() {
           </div>
           </Link>
           <Link to='https://jamaicacycling.com/wp-content/uploads/2024/02/New-Federation-Constitution-new-final.pdf' className='hover:-translate-y-4 duration-300' >
-          <div className='border border-black shadow-lg'>
+          <div className='p-12 border border-black shadow-lg'>
               <center>
-              <img src="constitution.PNG" alt="" srcset="" className='w-  p-5'/>
+              <img src="constitution.PNG" alt="" srcset="" className=' p-1'/>
               </center>
               <p className='text-lg tracking-light px-12 p-5 font-semibold text-center  underline underline-offset-8 decoration-2 decoration-solid decoration-green-800'>
                 New Federation Constitution
